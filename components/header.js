@@ -21,6 +21,9 @@ const Header = () => (
     <Link href="/transaction">
       <a style={style}>Transaction</a>
     </Link>
+    <Link href="/dynamic?name=Gie">
+      <a style={style}>Dynamic</a>
+    </Link>
   </div>
 )
 
